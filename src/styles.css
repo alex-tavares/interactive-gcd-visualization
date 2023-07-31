@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+
+rect {
+  stroke: black;
+}
+
+.axis-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.chart-area {
+  display: flex;
+  gap: 24px;
+}
+
+#sliders {
+  display: flex;
+  flex-direction: column;
+}
+
+#sliders input {
+  cursor: pointer;
+}
+
+.legend-entry {
+  display: flex;
+  align-items: center;
+}
+
+.legend-entry rect {
+  stroke: black;
+}
+
+.axis-label {
+  font-size: 16px;
+  font-weight: bold;
+}
